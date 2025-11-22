@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+   
+}
+
+
+nav{
+    background-color: #171310;
+    text-align: right;
+    padding: 30px;
+}
+
+nav a{
+    color: white;
+    font:"Familjen Grotesk", serif;
+    text-decoration: none;
+    margin-right: 35px;
+    font-weight: bold;
+}
+
+header, img{
+    width: 100%;
+    height: 750px;
+}
+
+article{
+    background-color: #f8e7c9;
+    padding: 40px;
+
+}
+h1{
+    color:#2e2620;
+    margin-bottom: 30px;
+}
+
+article , p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+
+.justificado{
+    text-align: justify;
+
+}
+
+strong{
+    color:#472912;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#472912;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+#destaques{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#container-destaques{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.tipos-cafes{
+    width: 100%;
+    height: 200px;
+}
+
+.opcaos{
+    background-color: white;
+    margin: 15px;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #CCC;
+}
+
+.conteudo{
+    padding: 30px;
+    display: flex;
+    text-align: center;
+}
+.conteudo, p{
+    padding: 10px;
+}
+
+#login{
+    background-color:#f8e7c9;
+    padding: 30px;
+}
+
+#form-login{
+    width: 400px;
+    height: 330px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #CCC;
+    
+    
+}
+
+
+form{
+    margin-top: 17%;
+    width: 100%;
+    
+   
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border: 1px solid #C4C4C4;
+}
+#botoes{
+    display: flex;
+    justify-content: center;
+    
+}
+input[type="submit"], input[type="reset"]{
+    margin: 20px;
+    width: 120px;  
+    height: 30px; 
+    border-radius: 8px;
+    border: none; 
+}
+
+input[type="submit"]{
+    background-color:#00bcd4;
+    color: white;
+}
+input[type="reset"]{
+    background-color: red;
+    color: white;
+ }
+
+ footer{
+    background-color: #212121;
+    padding: 15px;
+    color: white;
+   
+ }
+
+ footer a{
+    color: white;
+ }
+
+ footer a, p{
+    text-align: center;
+ }
